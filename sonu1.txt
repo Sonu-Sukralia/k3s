@@ -1,0 +1,518 @@
+pi@raspberrypi:~ $ history
+    1  ls
+    2  sudo apt update
+    3  sudo nano /etc/dhcpcd.conf
+    4  ~sudo nano /etc/dhcpcd.conf
+    5  sudo nano /etc/dhcpcd.conf
+    6  wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm64.tgz
+    7  unzip tgz file :- tar -zxvf ngrok-v3-stable-linux-arm64.tgz
+    8  tar -zxvf ngrok-v3-stable-linux-arm64.tgz
+    9  ls
+   10  sudo ./ngrok config add-authtoken 26b1iofcgYxkAqkOXqDpIoB5qeR_4ureSSmrRPuyTscJjtfCb
+   11  sudo mkdir /NAS
+   12  sudo chmod 777 /NAS/
+   13  sudo apt install exfat-utils exfat-fuse ntfs-3g
+   14  sudo apt install samba samba-common-bin
+   15  sudo apt update
+   16  sudo apt upgrade
+   17  sudo reboot
+   18  sudo apt upgrade
+   19  sudo apt install curl gnupg
+   20  curl -fsSL https://repo.jellyfin.org/ubuntu/jellyfin_team.gpg.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/jellyfin.gpg
+   21  echo "deb [arch=$( dpkg --print-architecture )] https://repo.jellyfin.org/$( awk -F'=' '/^ID=/{ print $NF }' /etc/os-release ) $( awk -F'=' '/^VERSION_CODENAME=/{ print $NF }' /etc/os-release ) main" | sudo tee /etc/apt/sources.list.d/jellyfin.list
+   22  sudo apt update
+   23  sudo apt install jellyfin
+   24  sudo systemctl start jellyfin
+   25  sudo systemctl enable jellyfin
+   26  curl -fsSL https://get.casaos.io | sudo bash
+   27  sudo -iname jellyfin
+   28  sudo / -iname jellyfin
+   29  sudo find / -iname jellyfin
+   30  dpkg --list
+   31  ls
+   32  clear
+   33  ls
+   34  cd ..
+   35  ls
+   36  cd home
+   37  cd pi
+   38  ls
+   39  sudo chmod 777 /NAS/
+   40  sudo apt install exfat-utils exfat-fuse ntfs-3g
+   41  sudo apt install samba samba-common-bin
+   42  lsblk
+   43  sudo umount -R /media/devmon/Usb
+   44  lsblk
+   45  sudo mount /dev/sda2 /NAS/
+   46  lsblk
+   47  sudo mount /sda/sda2 /NAS/
+   48  lsblk
+   49  sudo mount /dev/sda1 /NAS/
+   50  sudo reboot
+   51  lsblk
+   52  sudo umount -R /media/devmon/Usb
+   53  lsblk
+   54  sudo mount /dev/sda2 /NAS/
+   55  lsblk
+   56  sudo blkid
+   57  id
+   58  sudo nano /etc/fstab
+   59  sudo nano /etc/samba/smb.conf
+   60  sudo adduser pi
+   61  sudo smbpasswd -a pi
+   62  sudo /etc/init.d/smbd restart
+   63  sudo /etc/init.d/nmbd restart
+   64  sudo reboot
+   65  sudo blkid
+   66  id
+   67  sudo reboot
+   68  sudo jps
+   69  sudo reboot
+   70  sudo su -
+   71  sudo pip3 install jupyter
+   72  pip3 install --upgrade pip
+   73  sudo su -
+   74  sudo pip3 install jupyter
+   75  jupyter-notebook
+   76  sudo update-alternatives --config x-www-browser
+   77  sudo reboot
+   78  jupyter-notebook
+   79  jupyter-notebook
+   80  jupyter notebook --generate-config
+   81  jupyter --version
+   82  cat .jupyter/jupyter_notebook_config.py
+   83  vi .jupyter/jupyter_notebook_config.py
+   84  ls
+   85  pwd
+   86  ls
+   87  touch t.txt
+   88  vim t.txt
+   89  ls
+   90  vi t.txt
+   91  ls
+   92  cat t.txt
+   93  ls
+   94  vi t.txt
+   95  ls
+   96  nano t.txt
+   97  cat t.txt
+   98  jupyter notebook --generate-config
+   99  nano .jupyter/jupyter_notebook_config.py
+  100  jupyter notebook
+  101  jupyter notebook --ip 0.0.0.0 --port 8888
+  102  jupyter list
+  103  sudo nano /etc/rc.local
+  104  touch jn.sh
+  105  sudo nano jn.sh
+  106  chmod +x jn.sh
+  107  ./jn.sh
+  108  sudo nano jn.sh
+  109  ls
+  110  ./ngrok
+  111  sudo nano jn.sh
+  112  ./jn.sh
+  113  ngrok config add-authtoken 26b1iofcgYxkAqkOXqDpIoB5qeR_4ureSSmrRPuyTscJjtfCb
+  114  sudo ngrok config add-authtoken 26b1iofcgYxkAqkOXqDpIoB5qeR_4ureSSmrRPuyTscJjtfCb
+  115  ngrok config add-authtoken 26b1iofcgYxkAqkOXqDpIoB5qeR_4ureSSmrRPuyTscJjtfCb
+  116  sudo ./ngrok config add-authtoken 26b1iofcgYxkAqkOXqDpIoB5qeR_4ureSSmrRPuyTscJjtfCb
+  117  touch ngrok.sh
+  118  nano ngrok.sh
+  119  chmod +x ngrok.sh
+  120  ./ngrok.sh
+  121  ps aux
+  122  ps -e
+  123  kill 12857
+  124  sudo kill 12857
+  125  ps -e
+  126  sudo kill 11387
+  127  ./ngrok.sh
+  128  ./jn.sh
+  129  ls
+  130  mkdir jupyter
+  131  ls
+  132  jupyter list
+  133  sudo reboot
+  134  scp C:\Users\Sonu\Downloads\Titanic_ML-main.zip pi@192.168.29.15:/home/pi
+  135  scp C:\Users\Sonu\Downloads\Titanic_ML-main.zip pi@192.168.29.15: /home/pi
+  136  ls
+  137  scp C:\Users\Sonu\Downloads\Titanic_ML-main.zip pi@192.168.29.15:22 /home/pi/
+  138  ls
+  139  pwd
+  140  scp C:\Users\Sonu\Downloads\Titanic_ML-main.zip pi@192.168.29.15:22 :/home/pi/
+  141  scp C:\Users\Sonu\Downloads\Titanic_ML-main.zip pi@192.168.29.15:/home/pi/
+  142  scp C:\Users\Sonu\Downloads\Titanic_ML-main.zip pi@192.168.29.15: /home/pi/
+  143  scp C:\Users\Sonu\Downloads\Titanic_ML-main.zip pi@192.168.29.15:/home/pi/
+  144  scp C:\Users\Sonu\Downloads\Titanic_ML-main.zip pi@192.168.29.15: /home/pi/
+  145  ls
+  146  scp C:\Users\Sonu\Downloads\Titanic_ML-main.zip pi@192.168.29.15: /home/pi/Titanic_ML-main.zip
+  147  ls
+  148  tor -xvf Titanic_ML-main.zip
+  149  sudo tor -xvf Titanic_ML-main.zip
+  150  unzip Titanic_ML-main.zip
+  151  ls
+  152  cd Titanic_ML-main/
+  153  ls
+  154  cd ..
+  155  mkdir ML
+  156  sudo apt install [file name (i.e. ./remoteit-4.14.1.armhf.rpi.deb)]
+  157  sudo apt install connectd
+  158  sudo connectd_installer
+  159  htop
+  160  sudo apt update
+  161  sudo apt upgrade
+  162  ls
+  163  ./jn.sh
+  164  sudo reboot
+  165  ls
+  166  ls -l
+  167  ls -lrt
+  168  ls
+  169  ./jn.sh
+  170  ./ngrok.sh
+  171  ls
+  172  pip install seaborn
+  173  ./jm.sh
+  174  ./jn.sh
+  175  java --version
+  176  sudo apt install default-jdk
+  177  spark
+  178  spark --version
+  179  pyspark --version
+  180  pyspark
+  181  java --version
+  182  ls
+  183  ./m
+  184  ./ngrok.sh
+  185  ls
+  186  vi ngrok.sh
+  187  nano ngrok.sh
+  188  ./ngrok.sh
+  189  nano ngrok.sh
+  190  ./ngrok.sh
+  191  brew tap filebrowser/tap
+  192  brew install filebrowser
+  193  filebrowser -r /path/to/your/files
+  194  atp install filebrowser
+  195  ls
+  196  nano jn.sh
+  197  pi@raspberrypi:~ $
+  198  curl "https://binaries.twingate.com/connector/setup.sh" | sudo TWINGATE_ACCESS_TOKEN="eyJhbGciOiJFUzI1NiIsImtpZCI6Ik5GWV8xOUptY3VOb2hpOFBleEZkVnd0YUg3UE5ZbkFjM2ZMNmlicUwyUlUiLCJ0eXAiOiJEQVQifQ.eyJudCI6IkFOIiwiYWlkIjoiMzQ5MTEiLCJkaWQiOiIzNjU5NjYiLCJqdGkiOiI4YjFiOGE3ZC00MmI1LTQ2OGMtOGYyYi05MTYxNmM0MzBlOWEiLCJpc3MiOiJ0d2luZ2F0ZSIsImF1ZCI6InNvbnUiLCJleHAiOjE2OTE5NTM0MDcsImlhdCI6MTY5MTk0OTgwNywidmVyIjoiNCIsInRpZCI6IjYxNzMiLCJybnciOjE2OTE5NTAxMDcsInJuZXRpZCI6IjE5NjA0In0.fXcRWmzLkr4vXmnG0n5tU2nFoKeovOWW0Vik-SJKd7Eu5V9FCTR2iozNgOzx3azYT33-xUY165hLh0fu1qXNxw" TWINGATE_REFRESH_TOKEN="t7gABtYe4jnmMgSuk9qs3IxN9U3oJwh8vPrwU3Rfg53zckPd4ktKUr_Ydsmn2nXF6osCkwSGDWdFTU-RZgUszZVGlgw7HyLl_zR1j3yPZCuYtVs-7Jq4e9VSgE_AlKchZ4n-CA" TWINGATE_NETWORK="sonu" bash
+  199  ls
+  200  cat ngrok.sh
+  201  cat ngrok.sh.save
+  202  cat jn.sh
+  203  ngrok.sh
+  204  ./ngrok.sh
+  205  sudo history
+  206  history
+  207  history_for_print.txt
+  208  ~/.bash_history
+  209  .bash_history
+  210  ls
+  211  cat t.txt
+  212  cat ~/.bash_history > history_backup
+  213  ls
+  214  cat history_backup
+  215  cat ~/.bash_history > history_backup26aug23
+  216  ls
+  217  ./bash_history > ht1
+  218  ls
+  219  history > history_backup26aug2023
+  220  ls
+  221  cat ngrok
+  222  ls
+  223  cat jn.sh
+  224  docker ps
+  225  sudo docker ps
+  226  sudo apt install git zip jq
+  227  git clone https://github.com/vincenthsu/systemd-ngrok.git
+  228  ls
+  229  ls -lrt
+  230  ls -lhrt
+  231  cd systemd-ngrok/
+  232  ls
+  233  cp ngrok.yml ngrokbkp.yml
+  234  ls
+  235  nano ngrok.yml
+  236  ls
+  237  clear
+  238  ls
+  239  nano ngrok.yml
+  240  sudo ./install.sh
+  241  ls
+  242  nano ngrok.yml
+  243  sudo ./install.sh 26b1iofcgYxkAqkOXqDpIoB5qeR_4ureSSmrRPuyTscJjtfCb
+  244  systemctl status ngrok
+  245  sudo apt update
+  246  sudo apt upgrade
+  247  ls
+  248  cd systemd-ngrok/
+  249  ls
+  250  nano ngrok.yml
+  251  cat ngrok.yml
+  252  sudo ./install.sh 26b1iofcgYxkAqkOXqDpIoB5qeR_4ureSSmrRPuyTscJjtfCb
+  253  systemctl status ngrok
+  254  sudo reboot
+  255  systemctl status ngrok
+  256  ls
+  257  cd systemd-ngrok/
+  258  ls
+  259  sudo ./uninstall.sh
+  260  nano ngrok.yml
+  261  cat ngrok.yml
+  262  sudo ./install.sh 26b1iofcgYxkAqkOXqDpIoB5qeR_4ureSSmrRPuyTscJjtfCb
+  263  systemctl status ngrok
+  264  curl 102.168.29.15:4040/api/tunnerls | jp.tunnels[0]
+  265  curl 102.168.29.15/api/tunnerls | jp.tunnels[0]
+  266  nano ngrok.yml
+  267  ./ngrok status --all
+  268  ./ngrok start --all
+  269  curl 102.168.29.15/api/tunnerls | jp.tunnels[0]
+  270  sudo ./uninstall.sh
+  271  nano ngrok.yml
+  272  sudo ./install.sh 26b1iofcgYxkAqkOXqDpIoB5qeR_4ureSSmrRPuyTscJjtfCb
+  273  systemctl status ngrok
+  274  nano ngrok.yml
+  275  sudo ./uninstall.sh
+  276  sudo ./install.sh 26b1iofcgYxkAqkOXqDpIoB5qeR_4ureSSmrRPuyTscJjtfCb
+  277  systemctl status ngrok
+  278  sudo ./uninstall.sh
+  279  nano ngrok.yml
+  280  sudo ./uninstall.sh
+  281  sudo ./install.sh 26b1iofcgYxkAqkOXqDpIoB5qeR_4ureSSmrRPuyTscJjtfCb
+  282  systemctl status ngrok
+  283  sudo reboot
+  284  cd systemd-ngrok/
+  285  ls
+  286  systemctl status ngrok
+  287  nano ngrok.yml
+  288  sudo ./install.sh 26b1iofcgYxkAqkOXqDpIoB5qeR_4ureSSmrRPuyTscJjtfCb
+  289  systemctl status ngrok
+  290  cd ..
+  291  sudo docker run -d   --name=ngrok2discord   -e API_URL="192.168.29.15"   -e WEBHOOK_URL="https://discord.com/api/webhooks/1145226301364510763/EFIe7pr530l6Fn8LvW9L3hcFDECp-VvShiYLgyBBbZq4EOA-_HlhKaZlyJ4o8nE_NSa3"   -e LOOP_INTERVAL=30 `#optional`   -e LOG_LEVEL=INFO `#optional`   --restart unless-stopped   hardwarehaven/ngrok2discord
+  292  sudo reboot
+  293  ls
+  294  nano ngrok.yml
+  295  cd systemd-ngrok/
+  296  ls
+  297  nano ngrok.yml
+  298  sudo ./uninstall.sh
+  299  sudo ./install.sh 26b1iofcgYxkAqkOXqDpIoB5qeR_4ureSSmrRPuyTscJjtfCb
+  300  nano ngrok.yml
+  301  sudo ./uninstall.sh
+  302  sudo ./install.sh 26b1iofcgYxkAqkOXqDpIoB5qeR_4ureSSmrRPuyTscJjtfCb
+  303  systemctl status ngrok
+  304  curl 192.168.29.15:4040/api/tunnels | jp .tunnels[0]
+  305  curl 192.168.29.15:4040/api/tunnels | jq .tunnels[0]
+  306  sudo docker ps
+  307  sudo docker stop ngrok2discord
+  308  sudo docker rm ngrok2discord
+  309  sudo docker ps
+  310  cd ..
+  311  sudo docker run -d   --name=ngrok2discord   -e API_URL="192.168.29.15"   -e WEBHOOK_URL="https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjUwNTZmMDYzNjA0MzI1MjZlNTUzZDUxMzUi_pc"   -e LOOP_INTERVAL=3600 `#optional`   -e LOG_LEVEL=INFO `#optional`   --restart unless-stopped   hardwarehaven/ngrok2discord
+  312  sudo docker ps
+  313  systemctl statys ngrok
+  314  systemctl status ngrok
+  315  sudo reboot
+  316  ls
+  317  sudo docker run -d   --name=ngrok2discord2   -e API_URL="192.168.29.15"   -e WEBHOOK_URL="https://discord.com/api/webhooks/1145226301364510763/EFIe7pr530l6Fn8LvW9L3hcFDECp-VvShiYLgyBBbZq4EOA-_HlhKaZlyJ4o8nE_NSa3"   -e LOOP_INTERVAL=30 `#optional`   -e LOG_LEVEL=INFO `#optional`   --restart unless-stopped   hardwarehaven/ngrok2discord
+  318  sudo docker ps
+  319  sudo docker rm 3a9717941cc2
+  320  sudo doker stop 3a9717941cc2
+  321  sudo docker stop 3a9717941cc2
+  322  sudo docker rm 3a9717941cc2
+  323  sudo docker ps
+  324  sudo docker stop 2de13c87baff
+  325  sudo docker rm 2de13c87baff
+  326  sudo docker ps
+  327  sudo docker run -d   --name=ngrok2discord2   -e API_URL="192.168.29.15"   -e WEBHOOK_URL="https://discord.com/api/webhooks/1145226301364510763/EFIe7pr530l6Fn8LvW9L3hcFDECp-VvShiYLgyBBbZq4EOA-_HlhKaZlyJ4o8nE_NSa3"   -e LOOP_INTERVAL=3600 `#optional`   -e LOG_LEVEL=INFO `#optional`   --restart unless-stopped   hardwarehaven/ngrok2discord
+  328  sudo docker ps
+  329  sudo docker stop 1da08807c5ee
+  330  sudo docker rm 1da08807c5ee
+  331  sudo docker run -d   --name=ngrok2discord2   -e API_URL="192.168.29.15:4040"   -e WEBHOOK_URL="https://discord.com/api/webhooks/1145226301364510763/EFIe7pr530l6Fn8LvW9L3hcFDECp-VvShiYLgyBBbZq4EOA-_HlhKaZlyJ4o8nE_NSa3"   -e LOOP_INTERVAL=10 `#optional`   -e LOG_LEVEL=INFO `#optional`   --restart unless-stopped   hardwarehaven/ngrok2discord
+  332  sudo docker ps
+  333  sudo docker stop 7c0477da1d50
+  334  sudo docker rm 7c0477da1d50
+  335  sudo docker run -d   --name=ngrok2discord2   -e API_URL="192.168.29.15"   -e WEBHOOK_URL="https://discord.com/api/webhooks/1145226301364510763/EFIe7pr530l6Fn8LvW9L3hcFDECp-VvShiYLgyBBbZq4EOA-_HlhKaZlyJ4o8nE_NSa3"   -e LOOP_INTERVAL=1000 `#optional`   -e LOG_LEVEL=INFO `#optional`   --restart unless-stopped   hardwarehaven/ngrok2discord
+  336  sudo docker ps
+  337  sudo docker stop c3241e2a89b7
+  338  sudo docker rm c3241e2a89b7
+  339  sudo docker run -d   --name=ngrok2discord   -e API_URL="192.168.29.15"   -e WEBHOOK_URL="https://discord.com/api/webhooks/1145226301364510763/EFIe7pr530l6Fn8LvW9L3hcFDECp-VvShiYLgyBBbZq4EOA-_HlhKaZlyJ4o8nE_NSa3"   -e LOOP_INTERVAL=60 `#optional`   -e LOG_LEVEL=INFO `#optional`   --restart unless-stopped   hardwarehaven/ngrok2discord
+  340  sudo docker ps
+  341  sudo docker stop 922eaa1a0eff
+  342  sudo docker rm 922eaa1a0eff
+  343  sudo docker run -d   --name=ngrok2discord2   -e API_URL="192.168.29.15"   -e WEBHOOK_URL="https://discord.com/api/webhooks/1145226301364510763/EFIe7pr530l6Fn8LvW9L3hcFDECp-VvShiYLgyBBbZq4EOA-_HlhKaZlyJ4o8nE_NSa3"   -e LOOP_INTERVAL=10 `#optional`   -e LOG_LEVEL=INFO `#optional`   --restart unless-stopped   hardwarehaven/ngrok2discord
+  344  sudo reboot
+  345  sudo docker ps
+  346  sudo docker stop dfada1d807cd
+  347  sudo docker rm dfada1d807cd
+  348  sudo docker run -d   --name=ngrok2discord2   -e API_URL="192.168.29.15"   -e WEBHOOK_URL="https://discord.com/api/webhooks/1145226301364510763/EFIe7pr530l6Fn8LvW9L3hcFDECp-VvShiYLgyBBbZq4EOA-_HlhKaZlyJ4o8nE_NSa3"   -e LOOP_INTERVAL=600 `#optional`   -e LOG_LEVEL=INFO `#optional`   --restart unless-stopped   hardwarehaven/ngrok2discord
+  349  sudo docker ps
+  350  ls
+  351  sudo docker ps
+  352  sudo docker stop d9509cbc1aaa
+  353  sudo docker rm d9509cbc1aaa
+  354  sudo docker run -d   --name=ngrok2discord2   -e API_URL="192.168.29.15"   -e WEBHOOK_URL="https://discord.com/api/webhooks/1145226301364510763/EFIe7pr530l6Fn8LvW9L3hcFDECp-VvShiYLgyBBbZq4EOA-_HlhKaZlyJ4o8nE_NSa3"   -e LOOP_INTERVAL=60 `#optional`   -e LOG_LEVEL=INFO `#optional`   --restart unless-stopped   hardwarehaven/ngrok2discord
+  355  ls
+  356  cat jn.sh
+  357  sudo docker ps
+  358  sudo docker stop e893e1ee2c0f
+  359  sudo docker rm e893e1ee2c0f
+  360  sudo docker run -d   --name=ngrok2discord2   -e API_URL="192.168.29.15"   -e WEBHOOK_URL="https://discord.com/api/webhooks/1145226301364510763/EFIe7pr530l6Fn8LvW9L3hcFDECp-VvShiYLgyBBbZq4EOA-_HlhKaZlyJ4o8nE_NSa3"   -e LOOP_INTERVAL=3600 `#optional`   -e LOG_LEVEL=INFO `#optional`   --restart unless-stopped   hardwarehaven/ngrok2discord
+  361  sudo docker images
+  362  sudo docker login
+  363  sudo docker push sonusukralia/ngrok2discord
+  364  sudo docker ps
+  365  sudo docker images
+  366  sudo docker tag 92346b60669c ngrok2discord:v1
+  367  sudo docker images
+  368  sudo dokcer push sonusukralia/ngrok2discord
+  369  sudo docker push sonusukralia/ngrok2discord
+  370  sudo docker tag 92346b60669c sonusukralia/ngrok2discord:v1
+  371  sudo docker images
+  372  sudo docker push sonusukralia/ngrok2discord
+  373  sudo docker push sonusukralia/ngrok2discord:v1
+  374  history > history_backup8sep2023
+  375  ls
+  376  pwd
+  377  cat history_backup8sep2023
+  378  sudo reboot
+  379  reboot
+  380  sudo su
+  381  ls
+  382  ls -lhrt
+  383  docker ps
+  384  sudo docker ps
+  385  jupyter notebook
+  386  ls
+  387  history
+  388  history > history_Feb_2024
+  389  ls
+  390  sudo nano /etc/dhcpcd.conf
+  391  sudo apt update
+  392  sudo apt upgrade
+  393  sudo apt update
+  394  sudo apt upgrade
+  395  sudo reboot
+  396  sudo nano /etc/dhcpcd.conf
+  397  sudo nano /boot/cmdline.txt
+  398  sudo reboot
+  399  curl -sfL https://get.k3s.io | sh -
+  400  sudo kubectl get nodes
+  401  sudo cat /var/lib/rancher/k3s/server/node-token
+  402  sudo reboot
+  403  sudo kubectl get nodes
+  404  sudo reboot
+  405  sudo kubectl get nodes
+  406  sudo cat /var/lib/rancher/k3s/server/node-token
+  407  ifconfig
+  408  sudo kubectl get nodes
+  409  clr
+  410  cler
+  411  sudo kubectl get nodes
+  412  sudo su
+  413  sudo kubectl get nodes
+  414  sudo shutdown -now
+  415  sudo shutdown
+  416  sudo shutdown -n
+  417  sudo shutdown --n
+  418  sudo kubectl get nodes
+  419  sudo su
+  420  sudo kubectl get nodes
+  421  sudo kubectl describe node pif
+  422  sudo kubectl get nodes
+  423  sudo kubectl restart
+  424  sudo kubectl restart kubelet
+  425  sudo systemctl restart kubelet
+  426  sudo kubectl get nodes
+  427  sudo kubectl get pods
+  428  kubectl uncordon worker node pif
+  429  shutdown -h now
+  430  sudo kubectl get nodes
+  431  sudo reboot
+  432  sudo docker pull portainer/portainer-ce:linux-arm
+  433  sudo docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:linux-arm
+  434  ifconfig
+  435  kubectl get nodes
+  436  sudo kubectl get nodes
+  437  sudo kubectl get pods
+  438  sudo kubectl get pod
+  439  sudo apt update
+  440  sudo apt install snapd
+  441  sudo reboot
+  442  kubectl get pod
+  443  sudo kubectl get nodes
+  444  vi pod.yml
+  445  cat pod.yml
+  446  kubectl create -f pod.yml
+  447  KUBECONFIG=~/.kube/config
+  448  export KUBECONFIG=~/.kube/config
+  449  mkdir ~/.kube 2> /dev/null
+  450  sudo k3s kubectl config view --raw > "$KUBECONFIG"
+  451  chmod 600 "$KUBECONFIG"
+  452  sudo k3s kubectl version
+  453  sudo chmod 644 /etc/rancher/k3s/k3s.yaml
+  454  kubectl create -f pod.yml
+  455  kubectl get pod
+  456  history
+pi@raspberrypi:~ $ kubectl get nodes
+NAME          STATUS   ROLES                  AGE   VERSION
+raspberrypi   Ready    control-plane,master   40d   v1.29.3+k3s1
+pif           Ready    <none>                 40d   v1.29.3+k3s1
+pis           Ready    <none>                 40d   v1.29.3+k3s1
+pi@raspberrypi:~ $ history > history_bkp_6Jun_2024
+pi@raspberrypi:~ $ ls
+ Downloads                                                                              history_bkp_6Jun_2024   ngrok.sh.save.1
+ EDA_Supermarket_Python-main.zip                                                        history_Feb_2024        ngrok-v3-stable-linux-arm64.tgz
+'first jn test1.ipynb'                                                                  ht1                     nohup.out
+'[FreeCourseSite.com] Udemy - Docker & Kubernetes The Practical Guide [2022 Edition]'   jn.sh                   pod.yml
+ history_backup                                                                         jupyter                'Practical Kubernetes Guide'
+ history_backup26aug2023                                                                ML                      systemd-ngrok
+ history_backup26aug23                                                                  ngrok                   Titanic_ml
+ history_backup8sep2023                                                                 ngrok.sh                Titanic_ML-main.zip
+ history_backuptest                                                                     ngrok.sh.save           t.txt
+pi@raspberrypi:~ $ vi pod.yml
+pi@raspberrypi:~ $ vi pod.yml
+pi@raspberrypi:~ $ vi pod.yml
+pi@raspberrypi:~ $ vi pod1.yml
+pi@raspberrypi:~ $ vi pod.yml
+pi@raspberrypi:~ $ kubectl create -f pod.yml
+Error from server (BadRequest): error when creating "pod.yml": Pod in version "v1" cannot be handled as a Pod: strict decoding error: unknown field "replicas"
+pi@raspberrypi:~ $ vi pod.yml
+pi@raspberrypi:~ $ kubectl top pod
+NAME    CPU(cores)   MEMORY(bytes)
+nginx   0m           2Mi
+pi@raspberrypi:~ $ kubectl get pod
+NAME    READY   STATUS    RESTARTS   AGE
+nginx   1/1     Running   0          29m
+pi@raspberrypi:~ $ kubectl get hpa
+No resources found in default namespace.
+pi@raspberrypi:~ $ kubectl get pods -o wide
+NAME    READY   STATUS    RESTARTS   AGE   IP          NODE   NOMINATED NODE   READINESS GATES
+nginx   1/1     Running   0          33m   10.42.2.8   pis    <none>           <none>
+pi@raspberrypi:~ $ curl 10.42.2.8
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>

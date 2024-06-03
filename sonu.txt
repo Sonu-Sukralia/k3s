@@ -1,0 +1,19 @@
+pi@raspberrypi:~ $ kubectl create -f pod.yml
+WARN[0000] Unable to read /etc/rancher/k3s/k3s.yaml, please start server with --                                                                                        write-kubeconfig-mode to modify kube config permissions
+error: error loading config file "/etc/rancher/k3s/k3s.yaml": open /etc/rancher/                                                                                        k3s/k3s.yaml: permission denied
+pi@raspberrypi:~ $ KUBECONFIG=~/.kube/config
+pi@raspberrypi:~ $ export KUBECONFIG=~/.kube/config
+pi@raspberrypi:~ $ mkdir ~/.kube 2> /dev/null
+sudo k3s kubectl config view --raw > "$KUBECONFIG"
+chmod 600 "$KUBECONFIG"
+pi@raspberrypi:~ $ sudo k3s kubectl version
+Client Version: v1.29.3+k3s1
+Kustomize Version: v5.0.4-0.20230601165947-6ce0bf390ce3
+Server Version: v1.29.3+k3s1
+pi@raspberrypi:~ $ sudo chmod 644 /etc/rancher/k3s/k3s.yaml
+pi@raspberrypi:~ $ kubectl create -f pod.yml
+pod/nginx created
+pi@raspberrypi:~ $ kubectl get pod
+NAME    READY   STATUS              RESTARTS   AGE
+nginx   0/1     ContainerCreating   0          20s
+pi@raspberrypi:~ $ history
