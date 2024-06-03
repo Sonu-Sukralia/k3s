@@ -1,0 +1,25 @@
+pi@raspberrypi:~ $ kubectl apply -f pod_deployment.yaml
+WARN[0000] Unable to read /etc/rancher/k3s/k3s.yaml, please start server with --write-kubeconfig-mode to modify kube config permissions
+error: error loading config file "/etc/rancher/k3s/k3s.yaml": open /etc/rancher/k3s/k3s.yaml: permission denied
+
+
+pi@raspberrypi:~ $ export KUBECONFIG=~/.kube/config
+pi@raspberrypi:~ $ mkdir ~/.kube 2> /dev/null
+sudo k3s kubectl config view --raw > "$KUBECONFIG"
+chmod 600 "$KUBECONFIG"
+pi@raspberrypi:~ $ kubectl apply -f pod_deployment.yaml
+deployment.apps/nginx-deployment created
+pi@raspberrypi:~ $
+
+
+
+irst set up your an environmental variable for KUBECONFIG=~/.kube/config.
+[Step1
+export KUBECONFIG=~/.kube/config
+]
+Then let's generate the file at that location. Your k3s.yaml file should NOT be world readable.. This is by-design. It should be owned by root and set to 0600. Instead copy the config locally as described here,
+[Step2
+mkdir ~/.kube 2> /dev/null
+sudo k3s kubectl config view --raw > "$KUBECONFIG"
+chmod 600 "$KUBECONFIG"
+]
