@@ -1,0 +1,15 @@
+kubeshark
+sh <(curl -Ls https://kubeshark.co/install)  :- https://docs.kubeshark.co/en/install
+kubeshark tap
+kubeshark proxy
+
+kubeshark tap --proxy-host 0.0.0.0    :- https://docs.kubeshark.co/en/config     
+kubeshark clean
+
+
+
+
+
+
+
+kubectl apply -n portainer -f https://downloads.portainer.io/ee2-19/portainer.yaml
